@@ -1,0 +1,436 @@
+0000.000 (0) Opened log file at time: Tue, 25 Aug 2020 09:59:31 +0000 on http://wordpress.test.com
+0000.091 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.5 PHP: 7.4.9 (apache2handler, Linux 1d2007fe6b9a 4.19.104-microsoft-standard #1 SMP Wed Feb 19 06:37:35 UTC 2020 x86_64) MySQL: 5.7.31 WPLANG: en_US Server: Apache/2.4.38 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 4G (used: 9.8M | 4M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.158 (0) Free space on disk containing Updraft's temporary directory: 239931.1 MB
+0000.227 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.350 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.609 (0) Set semaphore last lock (fd) time to 2020-08-25 09:59:31
+0000.667 (0) Semaphore lock (fd) complete
+0000.843 (0) Backup run: resumption=0, nonce=72cb16aa4a13, file_nonce=72cb16aa4a13 begun at=1598349571 (1s ago), job type=backup
+0000.967 (0) Scheduling a resumption (1) after 300 seconds (1598349872) in case this run gets aborted
+0001.085 (0) Checking if we have a zip executable available
+0001.210 (0) Creation of backups of directories: beginning
+0001.465 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.733 (0) Total entities for the zip file: 1547 directories, 9577 files (0 skipped as non-modified), 147 MB
+0001.851 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.042 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.116 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.252 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.323 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.373 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (12.5 MB, 9577 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0003.463 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 600 files added (on-disk size: 4567.2 KB)
+0003.538 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 700 files added (on-disk size: 4567.2 KB)
+0003.659 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 800 files added (on-disk size: 4567.2 KB)
+0003.738 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 900 files added (on-disk size: 4567.2 KB)
+0003.821 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 1000 files added (on-disk size: 4567.2 KB)
+0003.889 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.4 MB, 9577 files batched, 501 (1002) added so far); re-opening (prior size: 4567.2 KB)
+0004.552 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 1100 files added (on-disk size: 5882.2 KB)
+0004.648 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 1200 files added (on-disk size: 5882.2 KB)
+0004.730 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 1300 files added (on-disk size: 5882.2 KB)
+0004.831 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 1400 files added (on-disk size: 5882.2 KB)
+0004.923 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 1500 files added (on-disk size: 5882.2 KB)
+0005.033 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.4 MB, 9577 files batched, 501 (1503) added so far); re-opening (prior size: 5882.2 KB)
+0005.644 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 1600 files added (on-disk size: 7004.6 KB)
+0005.743 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 1700 files added (on-disk size: 7004.6 KB)
+0005.839 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 1800 files added (on-disk size: 7004.6 KB)
+0005.954 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 1900 files added (on-disk size: 7004.6 KB)
+0006.119 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 2000 files added (on-disk size: 7004.6 KB)
+0006.250 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.1 MB, 9577 files batched, 501 (2004) added so far); re-opening (prior size: 7004.6 KB)
+0007.422 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 2100 files added (on-disk size: 11487.5 KB)
+0007.562 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 2200 files added (on-disk size: 11487.5 KB)
+0007.673 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 2300 files added (on-disk size: 11487.5 KB)
+0007.815 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 2400 files added (on-disk size: 11487.5 KB)
+0008.083 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 2500 files added (on-disk size: 11487.5 KB)
+0008.351 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.6 MB, 9577 files batched, 501 (2505) added so far); re-opening (prior size: 11487.5 KB)
+0010.122 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 2600 files added (on-disk size: 17784.4 KB)
+0010.283 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 2700 files added (on-disk size: 17784.4 KB)
+0010.347 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 2800 files added (on-disk size: 17784.4 KB)
+0010.424 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 2900 files added (on-disk size: 17784.4 KB)
+0010.501 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 3000 files added (on-disk size: 17784.4 KB)
+0010.554 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.6 MB, 9577 files batched, 501 (3006) added so far); re-opening (prior size: 17784.4 KB)
+0011.429 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 3100 files added (on-disk size: 18377.8 KB)
+0011.598 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 3200 files added (on-disk size: 18377.8 KB)
+0011.675 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 3300 files added (on-disk size: 18377.8 KB)
+0011.773 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 3400 files added (on-disk size: 18377.8 KB)
+0011.848 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 3500 files added (on-disk size: 18377.8 KB)
+0011.901 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.5 MB, 9577 files batched, 501 (3507) added so far); re-opening (prior size: 18377.8 KB)
+0013.257 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 3600 files added (on-disk size: 20528.8 KB)
+0013.345 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 3700 files added (on-disk size: 20528.8 KB)
+0013.451 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 3800 files added (on-disk size: 20528.8 KB)
+0013.541 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 3900 files added (on-disk size: 20528.8 KB)
+0013.681 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 4000 files added (on-disk size: 20528.8 KB)
+0013.767 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (15.8 MB, 9577 files batched, 501 (4008) added so far); re-opening (prior size: 20528.8 KB)
+0015.685 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 4100 files added (on-disk size: 25858.2 KB)
+0015.778 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 4200 files added (on-disk size: 25858.2 KB)
+0015.850 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 4300 files added (on-disk size: 25858.2 KB)
+0015.940 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 4400 files added (on-disk size: 25858.2 KB)
+0016.062 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 4500 files added (on-disk size: 25858.2 KB)
+0016.201 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.7 MB, 9577 files batched, 501 (4509) added so far); re-opening (prior size: 25858.2 KB)
+0017.846 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 4600 files added (on-disk size: 28305.4 KB)
+0017.936 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 4700 files added (on-disk size: 28305.4 KB)
+0018.053 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 4800 files added (on-disk size: 28305.4 KB)
+0018.179 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 4900 files added (on-disk size: 28305.4 KB)
+0018.256 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 5000 files added (on-disk size: 28305.4 KB)
+0018.323 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.7 MB, 9577 files batched, 501 (5010) added so far); re-opening (prior size: 28305.4 KB)
+0021.914 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 5100 files added (on-disk size: 32594.4 KB)
+0022.004 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 5200 files added (on-disk size: 32594.4 KB)
+0022.063 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 5300 files added (on-disk size: 32594.4 KB)
+0022.132 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 5400 files added (on-disk size: 32594.4 KB)
+0022.220 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 5500 files added (on-disk size: 32594.4 KB)
+0022.274 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.2 MB, 9577 files batched, 501 (5511) added so far); re-opening (prior size: 32594.4 KB)
+0023.969 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 5600 files added (on-disk size: 36651.7 KB)
+0024.092 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 5700 files added (on-disk size: 36651.7 KB)
+0024.168 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 5800 files added (on-disk size: 36651.7 KB)
+0024.251 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 5900 files added (on-disk size: 36651.7 KB)
+0024.337 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 6000 files added (on-disk size: 36651.7 KB)
+0024.397 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8 MB, 9577 files batched, 501 (6012) added so far); re-opening (prior size: 36651.7 KB)
+0025.680 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 6100 files added (on-disk size: 39560.1 KB)
+0025.776 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 6200 files added (on-disk size: 39560.1 KB)
+0026.015 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 6300 files added (on-disk size: 39560.1 KB)
+0026.124 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 6400 files added (on-disk size: 39560.1 KB)
+0026.224 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 6500 files added (on-disk size: 39560.1 KB)
+0026.275 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.6 MB, 9577 files batched, 501 (6513) added so far); re-opening (prior size: 39560.1 KB)
+0027.547 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 6600 files added (on-disk size: 40988.9 KB)
+0027.775 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 6700 files added (on-disk size: 40988.9 KB)
+0027.884 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 6800 files added (on-disk size: 40988.9 KB)
+0028.004 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 6900 files added (on-disk size: 40988.9 KB)
+0028.137 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 7000 files added (on-disk size: 40988.9 KB)
+0028.299 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (16.8 MB, 9577 files batched, 501 (7014) added so far); re-opening (prior size: 40988.9 KB)
+0030.633 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 7100 files added (on-disk size: 45126 KB)
+0030.753 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 7200 files added (on-disk size: 45126 KB)
+0030.953 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 7300 files added (on-disk size: 45126 KB)
+0031.070 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 7400 files added (on-disk size: 45126 KB)
+0031.221 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 7500 files added (on-disk size: 45126 KB)
+0031.390 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.2 MB, 9577 files batched, 501 (7515) added so far); re-opening (prior size: 45126 KB)
+0032.898 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 7600 files added (on-disk size: 47497.3 KB)
+0033.038 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 7700 files added (on-disk size: 47497.3 KB)
+0033.186 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 7800 files added (on-disk size: 47497.3 KB)
+0033.294 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 7900 files added (on-disk size: 47497.3 KB)
+0033.361 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 8000 files added (on-disk size: 47497.3 KB)
+0033.423 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.7 MB, 9577 files batched, 501 (8016) added so far); re-opening (prior size: 47497.3 KB)
+0034.344 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 8100 files added (on-disk size: 48221 KB)
+0034.461 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 8200 files added (on-disk size: 48221 KB)
+0034.587 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 8300 files added (on-disk size: 48221 KB)
+0034.728 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 8400 files added (on-disk size: 48221 KB)
+0034.787 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 8500 files added (on-disk size: 48221 KB)
+0034.842 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.8 MB, 9577 files batched, 501 (8517) added so far); re-opening (prior size: 48221 KB)
+0036.725 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 8600 files added (on-disk size: 51433.5 KB)
+0036.995 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 8700 files added (on-disk size: 51433.5 KB)
+0037.131 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 8800 files added (on-disk size: 51433.5 KB)
+0037.312 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 8900 files added (on-disk size: 51433.5 KB)
+0037.472 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 9000 files added (on-disk size: 51433.5 KB)
+0037.617 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (4.2 MB, 9577 files batched, 501 (9018) added so far); re-opening (prior size: 51433.5 KB)
+0039.109 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 9100 files added (on-disk size: 52457.6 KB)
+0039.231 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 9200 files added (on-disk size: 52457.6 KB)
+0039.306 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 9300 files added (on-disk size: 52457.6 KB)
+0039.620 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 9400 files added (on-disk size: 52457.6 KB)
+0039.788 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip.tmp: 9500 files added (on-disk size: 52457.6 KB)
+0039.844 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.9 MB, 9577 files batched, 501 (9519) added so far); re-opening (prior size: 52457.6 KB)
+0042.831 (0) Created plugins zip (0) - 53840.2 KB in 41.3 s (1303.5 KB/s) (sha1: 38c42aea107d909a715048ca4fa2cdc3f42ccd29, sha256: 112a91c0d1a65f3c337fa75ffceaf9c0d67f1f6f907a26655d59b5cb5a6f785a)
+0043.014 (0) Beginning creation of dump of themes (split every: 400 MB)
+0043.313 (0) Total entities for the zip file: 50 directories, 209 files (0 skipped as non-modified), 3.8 MB
+0043.384 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0043.444 (0) Zip: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0044.029 (0) Created themes zip (0) - 2164.4 KB in 0.8 s (2583.2 KB/s) (sha1: 3667641a9605a0f4e7495bbb8dcb0449d1e26dc4, sha256: 2cfa60107ae7c60d41c1e3c3d3666ce522faf62282fccbc763cc81984eabbde2)
+0044.322 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0044.372 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0044.439 (0) finding files: 2020: adding to list (1)
+0044.505 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0044.613 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0044.840 (0) Created uploads zip (0) - 0.2 KB in 0.3 s (0.8 KB/s) (sha1: f81ea009db6e1ece41f6b283577ae80efa3fb887, sha256: 4d20bb83b1e68aa6d5fb7b7d0b620e5f1f259e6d98ea3520bd1d87cbee6ed2d8)
+0044.998 (0) Beginning backup of other directories found in the content directory (index: 0)
+0045.073 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0045.231 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0045.364 (0) finding files: advanced-cache.php: adding to list (1)
+0045.434 (0) finding files: plugins: skipping: this is the plugins directory
+0045.615 (0) finding files: cache: skipping: excluded by options
+0045.673 (0) finding files: wflogs: adding to list (2)
+0045.723 (0) finding files: upgrade: skipping: excluded by options
+0045.774 (0) finding files: themes: skipping: this is the themes directory
+0045.824 (0) finding files: index.php: adding to list (3)
+0045.873 (0) finding files: debug.log: skipping: excluded by options
+0045.965 (0) finding files: updraft: skipping: this is the updraft directory
+0046.024 (0) finding files: w3tc-config: adding to list (4)
+0046.157 (0) finding files: uploads: skipping: this is the uploads directory
+0046.458 (0) Total entities for the zip file: 2 directories, 14 files (0 skipped as non-modified), 5.2 MB
+0049.181 (0) Created others zip (0) - 2406.4 KB in 2.9 s (830.3 KB/s) (sha1: c0a56666681dac63e908e4c1001b24b140913b8d, sha256: 90448c28f150ca1cf7018a452414622fe18d7894b751efb487a3c20187f8987a)
+0049.450 (0) Saving backup status to database (elements: 8)
+0049.568 (0) Beginning creation of database dump (WordPress DB)
+0049.695 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0049.805 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1240 bytes total)
+0049.869 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0050.084 (0) Table wp_options: Total expected rows (approximate): 271
+0050.368 (0) Table wp_options: Rows added in this batch (start page: 0; next: finished): 272 in 0.14 seconds
+0050.451 (0) Table wp_options: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_options.table.gz - 227.6 KB)
+0050.659 (0) Table wp_users: Total expected rows (approximate): 0
+0050.723 (0) Table wp_users: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0050.781 (0) Table wp_users: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_users.table.gz - 0.6 KB)
+0050.958 (0) Table wp_usermeta: Total expected rows (approximate): 18
+0051.027 (0) Table wp_usermeta: Rows added in this batch (start page: 0; next: finished): 20 in 0.00 seconds
+0051.140 (0) Table wp_usermeta: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_usermeta.table.gz - 1 KB)
+0051.517 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0051.593 (0) Table wp_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0051.657 (0) Table wp_commentmeta: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0051.981 (0) Table wp_comments: Total expected rows (approximate): 0
+0052.042 (0) Table wp_comments: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0052.098 (0) Table wp_comments: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_comments.table.gz - 0.7 KB)
+0052.308 (0) Table wp_links: Total expected rows (approximate): 0
+0052.376 (0) Table wp_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0052.431 (0) Table wp_links: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_links.table.gz - 0.4 KB)
+0052.634 (0) Table wp_postmeta: Total expected rows (approximate): 2
+0052.790 (0) Table wp_postmeta: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0052.891 (0) Table wp_postmeta: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_postmeta.table.gz - 0.4 KB)
+0053.210 (0) Table wp_posts: Total expected rows (approximate): 3
+0053.288 (0) Table wp_posts: Rows added in this batch (start page: 0; next: finished): 4 in 0.01 seconds
+0053.349 (0) Table wp_posts: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_posts.table.gz - 3.1 KB)
+0053.526 (0) Table wp_term_relationships: Total expected rows (approximate): 0
+0053.587 (0) Table wp_term_relationships: Rows added in this batch (start page: 0; next: finished): 1 in 0.01 seconds
+0053.649 (0) Table wp_term_relationships: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0053.843 (0) Table wp_term_taxonomy: Total expected rows (approximate): 0
+0053.918 (0) Table wp_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0053.985 (0) Table wp_term_taxonomy: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_term_taxonomy.table.gz - 0.4 KB)
+0054.350 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0054.411 (0) Table wp_termmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0054.507 (0) Table wp_termmeta: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_termmeta.table.gz - 0.4 KB)
+0054.787 (0) Table wp_terms: Total expected rows (approximate): 0
+0054.866 (0) Table wp_terms: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0054.927 (0) Table wp_terms: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_terms.table.gz - 0.4 KB)
+0055.115 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 0
+0055.183 (0) Table wp_yoast_seo_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0055.245 (0) Table wp_yoast_seo_links: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_yoast_seo_links.table.gz - 0.4 KB)
+0055.424 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 0
+0055.533 (0) Table wp_yoast_seo_meta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0055.597 (0) Table wp_yoast_seo_meta: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_yoast_seo_meta.table.gz - 0.3 KB)
+0055.816 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0055.901 (0) Table wp_wfblockediplog: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0055.963 (0) Table wp_wfblockediplog: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfblockediplog.table.gz - 0.3 KB)
+0056.308 (0) Table wp_wfblocks7: Total expected rows (approximate): 0
+0056.376 (0) Table wp_wfblocks7: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0056.464 (0) Table wp_wfblocks7: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfblocks7.table.gz - 0.4 KB)
+0056.659 (0) Table wp_wfconfig: Total expected rows (approximate): 234
+0056.738 (0) Table wp_wfconfig: Rows added in this batch (start page: 0; next: finished): 234 in 0.01 seconds
+0056.799 (0) Table wp_wfconfig: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfconfig.table.gz - 18 KB)
+0056.992 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0057.058 (0) Table wp_wfcrawlers: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0057.131 (0) Table wp_wfcrawlers: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfcrawlers.table.gz - 0.3 KB)
+0057.359 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0057.427 (0) Table wp_wffilechanges: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0057.515 (0) Table wp_wffilechanges: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wffilechanges.table.gz - 0.3 KB)
+0057.812 (0) Table wp_wffilemods: Total expected rows (approximate): 0
+0057.887 (0) Table wp_wffilemods: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0057.950 (0) Table wp_wffilemods: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wffilemods.table.gz - 0.4 KB)
+0058.311 (0) Table wp_wfhits: Total expected rows (approximate): 0
+0058.380 (0) Table wp_wfhits: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0058.443 (0) Table wp_wfhits: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfhits.table.gz - 0.4 KB)
+0058.639 (0) Table wp_wfhoover: Total expected rows (approximate): 0
+0058.708 (0) Table wp_wfhoover: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0058.768 (0) Table wp_wfhoover: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfhoover.table.gz - 0.3 KB)
+0058.927 (0) Table wp_wfissues: Total expected rows (approximate): 0
+0058.994 (0) Table wp_wfissues: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0059.052 (0) Table wp_wfissues: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfissues.table.gz - 0.4 KB)
+0059.236 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 0
+0059.304 (0) Table wp_wfknownfilelist: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0059.369 (0) Table wp_wfknownfilelist: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfknownfilelist.table.gz - 0.3 KB)
+0059.719 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0060.153 (0) Table wp_wflivetraffichuman: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0060.469 (0) Table wp_wflivetraffichuman: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wflivetraffichuman.table.gz - 0.3 KB)
+0060.925 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0060.991 (0) Table wp_wflocs: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0061.063 (0) Table wp_wflocs: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wflocs.table.gz - 0.4 KB)
+0061.394 (0) Table wp_wflogins: Total expected rows (approximate): 0
+0061.457 (0) Table wp_wflogins: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0061.523 (0) Table wp_wflogins: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wflogins.table.gz - 0.4 KB)
+0061.708 (0) Table wp_wfls_2fa_secrets: Total expected rows (approximate): 0
+0061.782 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0061.839 (0) Table wp_wfls_2fa_secrets: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfls_2fa_secrets.table.gz - 0.4 KB)
+0062.025 (0) Table wp_wfls_settings: Total expected rows (approximate): 19
+0062.095 (0) Table wp_wfls_settings: Rows added in this batch (start page: 0; next: finished): 19 in 0.01 seconds
+0062.231 (0) Table wp_wfls_settings: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfls_settings.table.gz - 0.8 KB)
+0062.592 (0) Table wp_wfnotifications: Total expected rows (approximate): 0
+0062.737 (0) Table wp_wfnotifications: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0062.857 (0) Table wp_wfnotifications: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfnotifications.table.gz - 0.3 KB)
+0063.085 (0) Table wp_wfpendingissues: Total expected rows (approximate): 0
+0063.262 (0) Table wp_wfpendingissues: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0063.324 (0) Table wp_wfpendingissues: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfpendingissues.table.gz - 0.4 KB)
+0063.518 (0) Table wp_wfreversecache: Total expected rows (approximate): 0
+0063.592 (0) Table wp_wfreversecache: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0063.659 (0) Table wp_wfreversecache: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfreversecache.table.gz - 0.3 KB)
+0063.858 (0) Table wp_wfsnipcache: Total expected rows (approximate): 0
+0063.930 (0) Table wp_wfsnipcache: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0064.001 (0) Table wp_wfsnipcache: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfsnipcache.table.gz - 0.4 KB)
+0064.254 (0) Table wp_wfstatus: Total expected rows (approximate): 10
+0064.311 (0) Table wp_wfstatus: Rows added in this batch (start page: 0; next: finished): 10 in 0.00 seconds
+0064.359 (0) Table wp_wfstatus: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfstatus.table.gz - 0.7 KB)
+0064.520 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0064.589 (0) Table wp_wftrafficrates: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0064.644 (0) Table wp_wftrafficrates: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wftrafficrates.table.gz - 0.3 KB)
+0064.796 (0) Table wp_yoast_indexable: Total expected rows (approximate): 10
+0064.868 (0) Table wp_yoast_indexable: Rows added in this batch (start page: 0; next: finished): 10 in 0.00 seconds
+0064.924 (0) Table wp_yoast_indexable: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_yoast_indexable.table.gz - 1.6 KB)
+0065.098 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0065.166 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0065.231 (0) Table wp_yoast_indexable_hierarchy: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_yoast_indexable_hierarchy.table.gz - 0.3 KB)
+0065.426 (0) Table wp_yoast_migrations: Total expected rows (approximate): 17
+0065.495 (0) Table wp_yoast_migrations: Rows added in this batch (start page: 0; next: finished): 17 in 0.01 seconds
+0065.565 (0) Table wp_yoast_migrations: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_yoast_migrations.table.gz - 0.5 KB)
+0065.781 (0) Table wp_yoast_primary_term: Total expected rows (approximate): 0
+0065.840 (0) Table wp_yoast_primary_term: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0065.905 (0) Table wp_yoast_primary_term: finishing file (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_yoast_primary_term.table.gz - 0.4 KB)
+0066.023 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_options.table.gz (1/39): adding to final database dump
+0066.354 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_users.table.gz (2/39): adding to final database dump
+0066.714 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_usermeta.table.gz (3/39): adding to final database dump
+0066.855 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_commentmeta.table.gz (4/39): adding to final database dump
+0066.914 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_comments.table.gz (5/39): adding to final database dump
+0066.972 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_links.table.gz (6/39): adding to final database dump
+0067.047 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_postmeta.table.gz (7/39): adding to final database dump
+0067.234 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_posts.table.gz (8/39): adding to final database dump
+0067.372 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_term_relationships.table.gz (9/39): adding to final database dump
+0067.455 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_term_taxonomy.table.gz (10/39): adding to final database dump
+0067.589 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_termmeta.table.gz (11/39): adding to final database dump
+0067.680 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_terms.table.gz (12/39): adding to final database dump
+0067.822 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_yoast_seo_links.table.gz (13/39): adding to final database dump
+0067.897 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_yoast_seo_meta.table.gz (14/39): adding to final database dump
+0068.030 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfblockediplog.table.gz (15/39): adding to final database dump
+0068.214 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfblocks7.table.gz (16/39): adding to final database dump
+0068.329 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfconfig.table.gz (17/39): adding to final database dump
+0068.526 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfcrawlers.table.gz (18/39): adding to final database dump
+0068.589 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wffilechanges.table.gz (19/39): adding to final database dump
+0068.658 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wffilemods.table.gz (20/39): adding to final database dump
+0068.723 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfhits.table.gz (21/39): adding to final database dump
+0068.781 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfhoover.table.gz (22/39): adding to final database dump
+0068.863 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfissues.table.gz (23/39): adding to final database dump
+0068.923 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfknownfilelist.table.gz (24/39): adding to final database dump
+0068.980 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wflivetraffichuman.table.gz (25/39): adding to final database dump
+0069.047 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wflocs.table.gz (26/39): adding to final database dump
+0069.215 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wflogins.table.gz (27/39): adding to final database dump
+0069.300 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfls_2fa_secrets.table.gz (28/39): adding to final database dump
+0069.359 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfls_settings.table.gz (29/39): adding to final database dump
+0069.417 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfnotifications.table.gz (30/39): adding to final database dump
+0069.497 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfpendingissues.table.gz (31/39): adding to final database dump
+0069.556 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfreversecache.table.gz (32/39): adding to final database dump
+0069.606 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfsnipcache.table.gz (33/39): adding to final database dump
+0069.664 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wfstatus.table.gz (34/39): adding to final database dump
+0069.715 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_wftrafficrates.table.gz (35/39): adding to final database dump
+0069.772 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_yoast_indexable.table.gz (36/39): adding to final database dump
+0069.823 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_yoast_indexable_hierarchy.table.gz (37/39): adding to final database dump
+0069.881 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_yoast_migrations.table.gz (38/39): adding to final database dump
+0069.932 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db-table-wp_yoast_primary_term.table.gz (39/39): adding to final database dump
+0069.999 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db.gz: finished writing out complete database file (240 KB)
+0070.318 (0) Total database tables backed up: 39 (backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db.gz, size: 261446, sha1: 349cef3df87e58f2e187ebabeefa4b2a55da40a0, sha256: 1a107e5325e2e56d31d7b34d406df74632a17f05896c46c2a7e37a691cefb857)
+0070.528 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0070.578 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0070.636 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0070.686 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-others.zip: others: This file has not yet been successfully uploaded: will queue
+0070.745 (0) backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db.gz: db: This file has not yet been successfully uploaded: will queue
+0070.828 (0) Saving backup history. Total backup size: 57.3 MB
+0071.103 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0071.523 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0071.648 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d365bbab3ee3508d543fbc882b0a7a6e)
+0072.461 (0) Google Drive: creating path: /UpdraftPlus
+0074.142 (0) Google Drive: quota usage: used=16964.3 MB, total=102400 MB, available=85435.7 MB
+0074.271 (0) Google Drive: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip: Attempting to upload to Google Drive (into folder id: 1bsz4oxXZKglxGIuFJsQy0Ur0shzX22UF)
+0075.748 (0) Googledrive chunked upload: 1.9 % uploaded (1048576)
+0076.856 (0) Googledrive chunked upload: 3.8 % uploaded (2097152)
+0077.739 (0) Googledrive chunked upload: 5.7 % uploaded (3145728)
+0078.782 (0) Googledrive chunked upload: 7.6 % uploaded (4194304)
+0079.706 (0) Googledrive chunked upload: 9.5 % uploaded (5242880)
+0080.599 (0) Googledrive chunked upload: 11.4 % uploaded (6291456)
+0081.500 (0) Googledrive chunked upload: 13.3 % uploaded (7340032)
+0082.481 (0) Googledrive chunked upload: 15.2 % uploaded (8388608)
+0083.389 (0) Googledrive chunked upload: 17.1 % uploaded (9437184)
+0084.276 (0) Googledrive chunked upload: 19 % uploaded (10485760)
+0085.151 (0) Googledrive chunked upload: 20.9 % uploaded (11534336)
+0086.030 (0) Googledrive chunked upload: 22.8 % uploaded (12582912)
+0087.177 (0) Googledrive chunked upload: 24.7 % uploaded (13631488)
+0088.264 (0) Googledrive chunked upload: 26.6 % uploaded (14680064)
+0089.253 (0) Googledrive chunked upload: 28.5 % uploaded (15728640)
+0090.278 (0) Googledrive chunked upload: 30.4 % uploaded (16777216)
+0091.288 (0) Googledrive chunked upload: 32.3 % uploaded (17825792)
+0092.364 (0) Googledrive chunked upload: 34.2 % uploaded (18874368)
+0093.296 (0) Googledrive chunked upload: 36.1 % uploaded (19922944)
+0094.272 (0) Googledrive chunked upload: 38 % uploaded (20971520)
+0095.206 (0) Googledrive chunked upload: 39.9 % uploaded (22020096)
+0096.272 (0) Googledrive chunked upload: 41.8 % uploaded (23068672)
+0097.383 (0) Googledrive chunked upload: 43.7 % uploaded (24117248)
+0098.492 (0) Googledrive chunked upload: 45.6 % uploaded (25165824)
+0099.366 (0) Googledrive chunked upload: 47.5 % uploaded (26214400)
+0100.292 (0) Googledrive chunked upload: 49.5 % uploaded (27262976)
+0101.243 (0) Googledrive chunked upload: 51.4 % uploaded (28311552)
+0102.251 (0) Googledrive chunked upload: 53.3 % uploaded (29360128)
+0103.322 (0) Googledrive chunked upload: 55.2 % uploaded (30408704)
+0104.314 (0) Googledrive chunked upload: 57.1 % uploaded (31457280)
+0105.277 (0) Googledrive chunked upload: 59 % uploaded (32505856)
+0106.314 (0) Googledrive chunked upload: 60.9 % uploaded (33554432)
+0107.329 (0) Googledrive chunked upload: 62.8 % uploaded (34603008)
+0108.313 (0) Googledrive chunked upload: 64.7 % uploaded (35651584)
+0109.455 (0) Googledrive chunked upload: 66.6 % uploaded (36700160)
+0110.371 (0) Googledrive chunked upload: 68.5 % uploaded (37748736)
+0111.381 (0) Googledrive chunked upload: 70.4 % uploaded (38797312)
+0113.473 (0) Googledrive chunked upload: 72.3 % uploaded (39845888)
+0114.288 (0) Googledrive chunked upload: 74.2 % uploaded (40894464)
+0115.217 (0) Googledrive chunked upload: 76.1 % uploaded (41943040)
+0116.288 (0) Googledrive chunked upload: 78 % uploaded (42991616)
+0117.259 (0) Googledrive chunked upload: 79.9 % uploaded (44040192)
+0118.280 (0) Googledrive chunked upload: 81.8 % uploaded (45088768)
+0119.227 (0) Googledrive chunked upload: 83.7 % uploaded (46137344)
+0120.053 (0) Googledrive chunked upload: 85.6 % uploaded (47185920)
+0121.205 (0) Googledrive chunked upload: 87.5 % uploaded (48234496)
+0122.338 (0) Googledrive chunked upload: 89.4 % uploaded (49283072)
+0123.412 (0) Googledrive chunked upload: 91.3 % uploaded (50331648)
+0124.338 (0) Googledrive chunked upload: 93.2 % uploaded (51380224)
+0125.255 (0) Googledrive chunked upload: 95.1 % uploaded (52428800)
+0126.322 (0) Googledrive chunked upload: 97 % uploaded (53477376)
+0127.221 (0) Googledrive chunked upload: 98.9 % uploaded (54525952)
+0129.348 (0) Googledrive chunked upload: 100 % uploaded (54525952)
+0129.532 (0) Google Drive: OK: Archive backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip uploaded in 55.05 seconds
+0129.591 (0) Recording as successfully uploaded: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip
+0129.727 (0) Deleting local file: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-plugins.zip: OK
+0130.245 (0) Google Drive: quota usage: used=17016.8 MB, total=102400 MB, available=85383.2 MB
+0130.296 (0) Google Drive: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-themes.zip: Attempting to upload to Google Drive (into folder id: 1bsz4oxXZKglxGIuFJsQy0Ur0shzX22UF)
+0131.540 (0) Googledrive chunked upload: 47.3 % uploaded (1048576)
+0132.380 (0) Googledrive chunked upload: 94.6 % uploaded (2097152)
+0133.838 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0134.005 (0) Google Drive: OK: Archive backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-themes.zip uploaded in 3.66 seconds
+0134.071 (0) Recording as successfully uploaded: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-themes.zip
+0134.318 (0) Deleting local file: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-themes.zip: OK
+0134.746 (0) Google Drive: quota usage: used=17018.9 MB, total=102400 MB, available=85381.1 MB
+0134.821 (0) Google Drive: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-uploads.zip: Attempting to upload to Google Drive (into folder id: 1bsz4oxXZKglxGIuFJsQy0Ur0shzX22UF)
+0136.628 (0) Googledrive chunked upload: 100 % uploaded
+0136.822 (0) Google Drive: OK: Archive backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-uploads.zip uploaded in 1.92 seconds
+0136.889 (0) Recording as successfully uploaded: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-uploads.zip
+0137.004 (0) Deleting local file: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-uploads.zip: OK
+0137.508 (0) Google Drive: quota usage: used=17018.9 MB, total=102400 MB, available=85381.1 MB
+0137.613 (0) Google Drive: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-others.zip: Attempting to upload to Google Drive (into folder id: 1bsz4oxXZKglxGIuFJsQy0Ur0shzX22UF)
+0139.221 (0) Googledrive chunked upload: 42.6 % uploaded (1048576)
+0140.296 (0) Googledrive chunked upload: 85.1 % uploaded (2097152)
+0142.304 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0142.530 (0) Google Drive: OK: Archive backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-others.zip uploaded in 4.75 seconds
+0142.605 (0) Recording as successfully uploaded: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-others.zip
+0142.723 (0) Deleting local file: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-others.zip: OK
+0143.278 (0) Google Drive: quota usage: used=17021.3 MB, total=102400 MB, available=85378.7 MB
+0143.373 (0) Google Drive: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db.gz: Attempting to upload to Google Drive (into folder id: 1bsz4oxXZKglxGIuFJsQy0Ur0shzX22UF)
+0145.896 (0) Googledrive chunked upload: 100 % uploaded
+0146.047 (0) Google Drive: OK: Archive backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db.gz uploaded in 2.57 seconds
+0146.229 (0) Recording as successfully uploaded: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db.gz
+0146.413 (0) Deleting local file: backup_2020-08-25-0959_wordpresstestcom_72cb16aa4a13-db.gz: OK
+0146.563 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0146.613 (0) Number of backup sets in history: 2; groups (db): 1
+0146.662 (0) Examining (for databases) backup set with group_id=0, nonce=72cb16aa4a13, datestamp=1598349571 (Aug 25 2020 09:59:31)
+0146.712 (0) This backup set is the backup set just made, so will not be deleted.
+0146.713 (0) Examining (for databases) backup set with group_id=0, nonce=178684afc907, datestamp=1598349368 (Aug 25 2020 09:56:08)
+0146.713 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0146.771 (0) Number of backup sets in history: 2; groups (files): 1
+0146.829 (0) Examining (for files) backup set with nonce=72cb16aa4a13, datestamp=1598349571 (Aug 25 2020 09:59:31)
+0146.829 (0) This backup set is the backup set just made, so will not be deleted.
+0146.879 (0) This backup set is the backup set just made, so will not be deleted.
+0146.879 (0) This backup set is the backup set just made, so will not be deleted.
+0146.879 (0) This backup set is the backup set just made, so will not be deleted.
+0146.879 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0146.932 (0) Examining (for files) backup set with nonce=178684afc907, datestamp=1598349368 (Aug 25 2020 09:56:08)
+0146.932 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0146.932 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0147.046 (0) Resume backup (72cb16aa4a13, 0): finish run
+0147.400 (0) Decremented the semaphore (fd) by 1
+0147.729 (0) Semaphore (fd) unlocked
+0147.796 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0147.979 (0) No email will/can be sent - the user has not configured an email address.
+0148.052 (0) The backup apparently succeeded and is now complete

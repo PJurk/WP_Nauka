@@ -1,4 +1,7 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
 /**
  * The base configuration for WordPress
  *
@@ -77,8 +80,13 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', false );
+define('FS_METHOD', 'direct');
+define ('JETPACK_DEV_DEBUG', true);
 
+define( 'WP_DEBUG', true );
+define( 'SAVEQUERIES', true );
+define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG_DISPLAY', true );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
