@@ -95,3 +95,1205 @@
 [25-Aug-2020 10:27:47 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
 [25-Aug-2020 10:28:17 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
 [25-Aug-2020 10:28:21 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:13 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:13 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:13 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:13 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:13 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:13 UTC] PHP   4. Core_Upgrader->download_package() /var/www/html/wp-admin/includes/class-core-upgrader.php:124
+[07-Sep-2020 18:09:13 UTC] PHP   5. WP_Upgrader_Skin->feedback() /var/www/html/wp-admin/includes/class-wp-upgrader.php:281
+[07-Sep-2020 18:09:13 UTC] PHP   6. show_message() /var/www/html/wp-admin/includes/class-wp-upgrader-skin.php:199
+[07-Sep-2020 18:09:13 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/misc.php:572
+[07-Sep-2020 18:09:13 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:09:17 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:17 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:17 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:17 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:17 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:17 UTC] PHP   4. apply_filters() /var/www/html/wp-admin/includes/class-core-upgrader.php:131
+[07-Sep-2020 18:09:17 UTC] PHP   5. WP_Hook->apply_filters() /var/www/html/wp-includes/plugin.php:206
+[07-Sep-2020 18:09:17 UTC] PHP   6. show_message() /var/www/html/wp-includes/class-wp-hook.php:287
+[07-Sep-2020 18:09:17 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/misc.php:572
+[07-Sep-2020 18:09:17 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:09:18 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:18 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:18 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:18 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:18 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:18 UTC] PHP   4. Core_Upgrader->unpack_package() /var/www/html/wp-admin/includes/class-core-upgrader.php:150
+[07-Sep-2020 18:09:18 UTC] PHP   5. WP_Upgrader_Skin->feedback() /var/www/html/wp-admin/includes/class-wp-upgrader.php:307
+[07-Sep-2020 18:09:18 UTC] PHP   6. show_message() /var/www/html/wp-admin/includes/class-wp-upgrader-skin.php:199
+[07-Sep-2020 18:09:18 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/misc.php:572
+[07-Sep-2020 18:09:18 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:09:18 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:18 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:18 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:18 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:18 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:18 UTC] PHP   4. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-core-upgrader.php:162
+[07-Sep-2020 18:09:18 UTC] PHP   5. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:18 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:18 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:18 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:18 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:18 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:18 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:18 UTC] PHP   5. apply_filters() /var/www/html/wp-admin/includes/update-core.php:916
+[07-Sep-2020 18:09:18 UTC] PHP   6. WP_Hook->apply_filters() /var/www/html/wp-includes/plugin.php:206
+[07-Sep-2020 18:09:18 UTC] PHP   7. show_message() /var/www/html/wp-includes/class-wp-hook.php:287
+[07-Sep-2020 18:09:18 UTC] PHP   8. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/misc.php:572
+[07-Sep-2020 18:09:18 UTC] PHP   9. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:09:18 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:18 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:18 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:18 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:18 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:18 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:18 UTC] PHP   5. apply_filters() /var/www/html/wp-admin/includes/update-core.php:1032
+[07-Sep-2020 18:09:18 UTC] PHP   6. WP_Hook->apply_filters() /var/www/html/wp-includes/plugin.php:206
+[07-Sep-2020 18:09:18 UTC] PHP   7. show_message() /var/www/html/wp-includes/class-wp-hook.php:287
+[07-Sep-2020 18:09:18 UTC] PHP   8. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/misc.php:572
+[07-Sep-2020 18:09:18 UTC] PHP   9. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:09:19 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. apply_filters() /var/www/html/wp-admin/includes/update-core.php:1094
+[07-Sep-2020 18:09:19 UTC] PHP   6. WP_Hook->apply_filters() /var/www/html/wp-includes/plugin.php:206
+[07-Sep-2020 18:09:19 UTC] PHP   7. show_message() /var/www/html/wp-includes/class-wp-hook.php:287
+[07-Sep-2020 18:09:19 UTC] PHP   8. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/misc.php:572
+[07-Sep-2020 18:09:19 UTC] PHP   9. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:09:19 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. apply_filters() /var/www/html/wp-admin/includes/update-core.php:1102
+[07-Sep-2020 18:09:19 UTC] PHP   6. WP_Hook->apply_filters() /var/www/html/wp-includes/plugin.php:206
+[07-Sep-2020 18:09:19 UTC] PHP   7. show_message() /var/www/html/wp-includes/class-wp-hook.php:287
+[07-Sep-2020 18:09:19 UTC] PHP   8. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/misc.php:572
+[07-Sep-2020 18:09:19 UTC] PHP   9. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP   9. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP   9. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  11. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  12. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  11. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  12. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  11. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  12. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  11. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  12. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  11. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  12. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP   9. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP   9. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP   9. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP   9. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP   9. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP   9. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP   9. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP   9. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP   9. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  11. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  12. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  11. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  12. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  11. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  12. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  11. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  12. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  11. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  12. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  11. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  12. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  11. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  12. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  11. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  12. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP   9. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  11. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  11. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  11. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  11. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  11. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP  10. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  11. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   7. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1390
+[07-Sep-2020 18:09:19 UTC] PHP   8. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   9. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP  10. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. _copy_dir() /var/www/html/wp-admin/includes/update-core.php:1104
+[07-Sep-2020 18:09:19 UTC] PHP   6. WP_Filesystem_Direct->copy() /var/www/html/wp-admin/includes/update-core.php:1360
+[07-Sep-2020 18:09:19 UTC] PHP   7. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:312
+[07-Sep-2020 18:09:19 UTC] PHP   8. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. WP_Filesystem_Direct->chmod() /var/www/html/wp-admin/includes/update-core.php:1115
+[07-Sep-2020 18:09:19 UTC] PHP   6. chmod() /var/www/html/wp-admin/includes/class-wp-filesystem-direct.php:173
+[07-Sep-2020 18:09:19 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. apply_filters() /var/www/html/wp-admin/includes/update-core.php:1191
+[07-Sep-2020 18:09:19 UTC] PHP   6. WP_Hook->apply_filters() /var/www/html/wp-includes/plugin.php:206
+[07-Sep-2020 18:09:19 UTC] PHP   7. show_message() /var/www/html/wp-includes/class-wp-hook.php:287
+[07-Sep-2020 18:09:19 UTC] PHP   8. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/misc.php:572
+[07-Sep-2020 18:09:19 UTC] PHP   9. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:09:19 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:19 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:19 UTC] PHP   3. Core_Upgrader->upgrade() /var/www/html/wp-admin/update-core.php:716
+[07-Sep-2020 18:09:19 UTC] PHP   4. update_core() /var/www/html/wp-admin/includes/class-core-upgrader.php:172
+[07-Sep-2020 18:09:19 UTC] PHP   5. apply_filters() /var/www/html/wp-admin/includes/update-core.php:1285
+[07-Sep-2020 18:09:19 UTC] PHP   6. WP_Hook->apply_filters() /var/www/html/wp-includes/plugin.php:206
+[07-Sep-2020 18:09:19 UTC] PHP   7. show_message() /var/www/html/wp-includes/class-wp-hook.php:287
+[07-Sep-2020 18:09:19 UTC] PHP   8. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/misc.php:572
+[07-Sep-2020 18:09:19 UTC] PHP   9. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:09:23 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:23 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:23 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:23 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:23 UTC] PHP   3. show_message() /var/www/html/wp-admin/update-core.php:729
+[07-Sep-2020 18:09:23 UTC] PHP   4. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/misc.php:572
+[07-Sep-2020 18:09:23 UTC] PHP   5. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:09:23 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:23 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:23 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:23 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:23 UTC] PHP   3. show_message() /var/www/html/wp-admin/update-core.php:736
+[07-Sep-2020 18:09:23 UTC] PHP   4. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/misc.php:572
+[07-Sep-2020 18:09:23 UTC] PHP   5. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:09:23 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:23 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:23 UTC] PHP   1. {main}() /var/www/html/wp-admin/update-core.php:0
+[07-Sep-2020 18:09:23 UTC] PHP   2. do_core_upgrade() /var/www/html/wp-admin/update-core.php:937
+[07-Sep-2020 18:09:23 UTC] PHP   3. show_message() /var/www/html/wp-admin/update-core.php:744
+[07-Sep-2020 18:09:23 UTC] PHP   4. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/misc.php:572
+[07-Sep-2020 18:09:23 UTC] PHP   5. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:09:24 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:24 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:24 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[07-Sep-2020 18:09:24 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1001
+[07-Sep-2020 18:09:24 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[07-Sep-2020 18:09:24 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[07-Sep-2020 18:09:24 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[07-Sep-2020 18:09:24 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:09:25 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:09:25 UTC] PHP Stack trace:
+[07-Sep-2020 18:09:25 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[07-Sep-2020 18:09:25 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[07-Sep-2020 18:09:25 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[07-Sep-2020 18:09:25 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[07-Sep-2020 18:09:25 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[07-Sep-2020 18:09:25 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:10:35 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:10:35 UTC] PHP Stack trace:
+[07-Sep-2020 18:10:35 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[07-Sep-2020 18:10:35 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[07-Sep-2020 18:10:35 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[07-Sep-2020 18:10:35 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[07-Sep-2020 18:10:35 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[07-Sep-2020 18:10:35 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:11:48 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:11:48 UTC] PHP Stack trace:
+[07-Sep-2020 18:11:48 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[07-Sep-2020 18:11:48 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[07-Sep-2020 18:11:48 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[07-Sep-2020 18:11:48 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[07-Sep-2020 18:11:48 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[07-Sep-2020 18:11:48 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:11:50 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:11:50 UTC] PHP Stack trace:
+[07-Sep-2020 18:11:50 UTC] PHP   1. {main}() /var/www/html/wp-admin/update.php:0
+[07-Sep-2020 18:11:50 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() /var/www/html/wp-admin/update.php:51
+[07-Sep-2020 18:11:50 UTC] PHP   3. Plugin_Upgrader->run() /var/www/html/wp-admin/includes/class-plugin-upgrader.php:345
+[07-Sep-2020 18:11:50 UTC] PHP   4. Bulk_Plugin_Upgrader_Skin->before() /var/www/html/wp-admin/includes/class-wp-upgrader.php:728
+[07-Sep-2020 18:11:50 UTC] PHP   5. Bulk_Plugin_Upgrader_Skin->before() /var/www/html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php:31
+[07-Sep-2020 18:11:50 UTC] PHP   6. Bulk_Plugin_Upgrader_Skin->flush_output() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:132
+[07-Sep-2020 18:11:50 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:174
+[07-Sep-2020 18:11:50 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:12:05 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:12:05 UTC] PHP Stack trace:
+[07-Sep-2020 18:12:05 UTC] PHP   1. {main}() /var/www/html/wp-admin/update.php:0
+[07-Sep-2020 18:12:05 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() /var/www/html/wp-admin/update.php:51
+[07-Sep-2020 18:12:05 UTC] PHP   3. Plugin_Upgrader->run() /var/www/html/wp-admin/includes/class-plugin-upgrader.php:345
+[07-Sep-2020 18:12:05 UTC] PHP   4. Bulk_Plugin_Upgrader_Skin->after() /var/www/html/wp-admin/includes/class-wp-upgrader.php:813
+[07-Sep-2020 18:12:05 UTC] PHP   5. Bulk_Plugin_Upgrader_Skin->after() /var/www/html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php:38
+[07-Sep-2020 18:12:05 UTC] PHP   6. Bulk_Plugin_Upgrader_Skin->flush_output() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:161
+[07-Sep-2020 18:12:05 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:174
+[07-Sep-2020 18:12:05 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:12:05 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:12:05 UTC] PHP Stack trace:
+[07-Sep-2020 18:12:05 UTC] PHP   1. {main}() /var/www/html/wp-admin/update.php:0
+[07-Sep-2020 18:12:05 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() /var/www/html/wp-admin/update.php:51
+[07-Sep-2020 18:12:05 UTC] PHP   3. Plugin_Upgrader->run() /var/www/html/wp-admin/includes/class-plugin-upgrader.php:345
+[07-Sep-2020 18:12:05 UTC] PHP   4. Bulk_Plugin_Upgrader_Skin->before() /var/www/html/wp-admin/includes/class-wp-upgrader.php:728
+[07-Sep-2020 18:12:05 UTC] PHP   5. Bulk_Plugin_Upgrader_Skin->before() /var/www/html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php:31
+[07-Sep-2020 18:12:05 UTC] PHP   6. Bulk_Plugin_Upgrader_Skin->flush_output() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:132
+[07-Sep-2020 18:12:05 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:174
+[07-Sep-2020 18:12:05 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:12:10 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:12:10 UTC] PHP Stack trace:
+[07-Sep-2020 18:12:10 UTC] PHP   1. {main}() /var/www/html/wp-admin/update.php:0
+[07-Sep-2020 18:12:10 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() /var/www/html/wp-admin/update.php:51
+[07-Sep-2020 18:12:10 UTC] PHP   3. Plugin_Upgrader->run() /var/www/html/wp-admin/includes/class-plugin-upgrader.php:345
+[07-Sep-2020 18:12:10 UTC] PHP   4. Bulk_Plugin_Upgrader_Skin->after() /var/www/html/wp-admin/includes/class-wp-upgrader.php:813
+[07-Sep-2020 18:12:10 UTC] PHP   5. Bulk_Plugin_Upgrader_Skin->after() /var/www/html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php:38
+[07-Sep-2020 18:12:10 UTC] PHP   6. Bulk_Plugin_Upgrader_Skin->flush_output() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:161
+[07-Sep-2020 18:12:10 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:174
+[07-Sep-2020 18:12:10 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:12:10 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:12:10 UTC] PHP Stack trace:
+[07-Sep-2020 18:12:10 UTC] PHP   1. {main}() /var/www/html/wp-admin/update.php:0
+[07-Sep-2020 18:12:10 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() /var/www/html/wp-admin/update.php:51
+[07-Sep-2020 18:12:10 UTC] PHP   3. Plugin_Upgrader->run() /var/www/html/wp-admin/includes/class-plugin-upgrader.php:345
+[07-Sep-2020 18:12:10 UTC] PHP   4. Bulk_Plugin_Upgrader_Skin->before() /var/www/html/wp-admin/includes/class-wp-upgrader.php:728
+[07-Sep-2020 18:12:10 UTC] PHP   5. Bulk_Plugin_Upgrader_Skin->before() /var/www/html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php:31
+[07-Sep-2020 18:12:10 UTC] PHP   6. Bulk_Plugin_Upgrader_Skin->flush_output() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:132
+[07-Sep-2020 18:12:10 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:174
+[07-Sep-2020 18:12:10 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:12:30 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:12:30 UTC] PHP Stack trace:
+[07-Sep-2020 18:12:30 UTC] PHP   1. {main}() /var/www/html/wp-admin/update.php:0
+[07-Sep-2020 18:12:30 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() /var/www/html/wp-admin/update.php:51
+[07-Sep-2020 18:12:30 UTC] PHP   3. Plugin_Upgrader->run() /var/www/html/wp-admin/includes/class-plugin-upgrader.php:345
+[07-Sep-2020 18:12:30 UTC] PHP   4. Bulk_Plugin_Upgrader_Skin->after() /var/www/html/wp-admin/includes/class-wp-upgrader.php:813
+[07-Sep-2020 18:12:30 UTC] PHP   5. Bulk_Plugin_Upgrader_Skin->after() /var/www/html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php:38
+[07-Sep-2020 18:12:30 UTC] PHP   6. Bulk_Plugin_Upgrader_Skin->flush_output() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:161
+[07-Sep-2020 18:12:30 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:174
+[07-Sep-2020 18:12:30 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:12:30 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:12:30 UTC] PHP Stack trace:
+[07-Sep-2020 18:12:30 UTC] PHP   1. {main}() /var/www/html/wp-admin/update.php:0
+[07-Sep-2020 18:12:30 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() /var/www/html/wp-admin/update.php:51
+[07-Sep-2020 18:12:30 UTC] PHP   3. Plugin_Upgrader->run() /var/www/html/wp-admin/includes/class-plugin-upgrader.php:345
+[07-Sep-2020 18:12:30 UTC] PHP   4. Bulk_Plugin_Upgrader_Skin->before() /var/www/html/wp-admin/includes/class-wp-upgrader.php:728
+[07-Sep-2020 18:12:30 UTC] PHP   5. Bulk_Plugin_Upgrader_Skin->before() /var/www/html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php:31
+[07-Sep-2020 18:12:30 UTC] PHP   6. Bulk_Plugin_Upgrader_Skin->flush_output() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:132
+[07-Sep-2020 18:12:30 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:174
+[07-Sep-2020 18:12:30 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:12:45 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:12:45 UTC] PHP Stack trace:
+[07-Sep-2020 18:12:45 UTC] PHP   1. {main}() /var/www/html/wp-admin/update.php:0
+[07-Sep-2020 18:12:45 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() /var/www/html/wp-admin/update.php:51
+[07-Sep-2020 18:12:45 UTC] PHP   3. Plugin_Upgrader->run() /var/www/html/wp-admin/includes/class-plugin-upgrader.php:345
+[07-Sep-2020 18:12:45 UTC] PHP   4. Bulk_Plugin_Upgrader_Skin->after() /var/www/html/wp-admin/includes/class-wp-upgrader.php:813
+[07-Sep-2020 18:12:45 UTC] PHP   5. Bulk_Plugin_Upgrader_Skin->after() /var/www/html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php:38
+[07-Sep-2020 18:12:45 UTC] PHP   6. Bulk_Plugin_Upgrader_Skin->flush_output() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:161
+[07-Sep-2020 18:12:45 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:174
+[07-Sep-2020 18:12:45 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:12:45 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:12:45 UTC] PHP Stack trace:
+[07-Sep-2020 18:12:45 UTC] PHP   1. {main}() /var/www/html/wp-admin/update.php:0
+[07-Sep-2020 18:12:45 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() /var/www/html/wp-admin/update.php:51
+[07-Sep-2020 18:12:45 UTC] PHP   3. Plugin_Upgrader->run() /var/www/html/wp-admin/includes/class-plugin-upgrader.php:345
+[07-Sep-2020 18:12:45 UTC] PHP   4. Bulk_Plugin_Upgrader_Skin->before() /var/www/html/wp-admin/includes/class-wp-upgrader.php:728
+[07-Sep-2020 18:12:45 UTC] PHP   5. Bulk_Plugin_Upgrader_Skin->before() /var/www/html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php:31
+[07-Sep-2020 18:12:45 UTC] PHP   6. Bulk_Plugin_Upgrader_Skin->flush_output() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:132
+[07-Sep-2020 18:12:45 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:174
+[07-Sep-2020 18:12:45 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:13:05 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:13:05 UTC] PHP Stack trace:
+[07-Sep-2020 18:13:05 UTC] PHP   1. {main}() /var/www/html/wp-admin/update.php:0
+[07-Sep-2020 18:13:05 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() /var/www/html/wp-admin/update.php:51
+[07-Sep-2020 18:13:05 UTC] PHP   3. Plugin_Upgrader->run() /var/www/html/wp-admin/includes/class-plugin-upgrader.php:345
+[07-Sep-2020 18:13:05 UTC] PHP   4. Bulk_Plugin_Upgrader_Skin->after() /var/www/html/wp-admin/includes/class-wp-upgrader.php:813
+[07-Sep-2020 18:13:05 UTC] PHP   5. Bulk_Plugin_Upgrader_Skin->after() /var/www/html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php:38
+[07-Sep-2020 18:13:05 UTC] PHP   6. Bulk_Plugin_Upgrader_Skin->flush_output() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:161
+[07-Sep-2020 18:13:05 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:174
+[07-Sep-2020 18:13:05 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:13:05 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:13:05 UTC] PHP Stack trace:
+[07-Sep-2020 18:13:05 UTC] PHP   1. {main}() /var/www/html/wp-admin/update.php:0
+[07-Sep-2020 18:13:05 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() /var/www/html/wp-admin/update.php:51
+[07-Sep-2020 18:13:05 UTC] PHP   3. Plugin_Upgrader->run() /var/www/html/wp-admin/includes/class-plugin-upgrader.php:345
+[07-Sep-2020 18:13:05 UTC] PHP   4. Bulk_Plugin_Upgrader_Skin->before() /var/www/html/wp-admin/includes/class-wp-upgrader.php:728
+[07-Sep-2020 18:13:05 UTC] PHP   5. Bulk_Plugin_Upgrader_Skin->before() /var/www/html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php:31
+[07-Sep-2020 18:13:05 UTC] PHP   6. Bulk_Plugin_Upgrader_Skin->flush_output() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:132
+[07-Sep-2020 18:13:05 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:174
+[07-Sep-2020 18:13:05 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:13:19 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:13:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:13:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update.php:0
+[07-Sep-2020 18:13:19 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() /var/www/html/wp-admin/update.php:51
+[07-Sep-2020 18:13:19 UTC] PHP   3. Plugin_Upgrader->run() /var/www/html/wp-admin/includes/class-plugin-upgrader.php:345
+[07-Sep-2020 18:13:19 UTC] PHP   4. Bulk_Plugin_Upgrader_Skin->after() /var/www/html/wp-admin/includes/class-wp-upgrader.php:813
+[07-Sep-2020 18:13:19 UTC] PHP   5. Bulk_Plugin_Upgrader_Skin->after() /var/www/html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php:38
+[07-Sep-2020 18:13:19 UTC] PHP   6. Bulk_Plugin_Upgrader_Skin->flush_output() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:161
+[07-Sep-2020 18:13:19 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:174
+[07-Sep-2020 18:13:19 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:13:19 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:13:19 UTC] PHP Stack trace:
+[07-Sep-2020 18:13:19 UTC] PHP   1. {main}() /var/www/html/wp-admin/update.php:0
+[07-Sep-2020 18:13:19 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() /var/www/html/wp-admin/update.php:51
+[07-Sep-2020 18:13:19 UTC] PHP   3. Plugin_Upgrader->run() /var/www/html/wp-admin/includes/class-plugin-upgrader.php:345
+[07-Sep-2020 18:13:19 UTC] PHP   4. Bulk_Plugin_Upgrader_Skin->before() /var/www/html/wp-admin/includes/class-wp-upgrader.php:728
+[07-Sep-2020 18:13:19 UTC] PHP   5. Bulk_Plugin_Upgrader_Skin->before() /var/www/html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php:31
+[07-Sep-2020 18:13:19 UTC] PHP   6. Bulk_Plugin_Upgrader_Skin->flush_output() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:132
+[07-Sep-2020 18:13:19 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:174
+[07-Sep-2020 18:13:19 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:13:30 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:13:30 UTC] PHP Stack trace:
+[07-Sep-2020 18:13:30 UTC] PHP   1. {main}() /var/www/html/wp-admin/update.php:0
+[07-Sep-2020 18:13:30 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() /var/www/html/wp-admin/update.php:51
+[07-Sep-2020 18:13:30 UTC] PHP   3. Plugin_Upgrader->run() /var/www/html/wp-admin/includes/class-plugin-upgrader.php:345
+[07-Sep-2020 18:13:30 UTC] PHP   4. Bulk_Plugin_Upgrader_Skin->after() /var/www/html/wp-admin/includes/class-wp-upgrader.php:813
+[07-Sep-2020 18:13:30 UTC] PHP   5. Bulk_Plugin_Upgrader_Skin->after() /var/www/html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php:38
+[07-Sep-2020 18:13:30 UTC] PHP   6. Bulk_Plugin_Upgrader_Skin->flush_output() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:161
+[07-Sep-2020 18:13:30 UTC] PHP   7. wp_ob_end_flush_all() /var/www/html/wp-admin/includes/class-bulk-upgrader-skin.php:174
+[07-Sep-2020 18:13:30 UTC] PHP   8. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 18:13:35 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 18:13:35 UTC] PHP Stack trace:
+[07-Sep-2020 18:13:35 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[07-Sep-2020 18:13:35 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[07-Sep-2020 18:13:35 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[07-Sep-2020 18:13:35 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[07-Sep-2020 18:13:35 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[07-Sep-2020 18:13:35 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[07-Sep-2020 20:04:51 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[07-Sep-2020 20:04:51 UTC] PHP Stack trace:
+[07-Sep-2020 20:04:51 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[07-Sep-2020 20:04:51 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[07-Sep-2020 20:04:51 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[07-Sep-2020 20:04:51 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[07-Sep-2020 20:04:51 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[07-Sep-2020 20:04:51 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:30:25 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:30:25 UTC] PHP Stack trace:
+[08-Sep-2020 06:30:25 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:30:25 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:30:25 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:30:25 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:30:25 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:30:25 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:32:36 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:32:36 UTC] PHP Stack trace:
+[08-Sep-2020 06:32:36 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:32:36 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:32:36 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:32:36 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:32:36 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:32:36 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:32:36 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:32:36 UTC] PHP Stack trace:
+[08-Sep-2020 06:32:36 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:32:36 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:32:36 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:32:36 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:32:36 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:32:36 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:35:40 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:35:40 UTC] PHP Stack trace:
+[08-Sep-2020 06:35:40 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:35:40 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:35:40 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:35:40 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:35:40 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:35:40 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:35:47 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:35:47 UTC] PHP Stack trace:
+[08-Sep-2020 06:35:47 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:35:47 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:35:47 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:35:47 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:35:47 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:35:47 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:35:47 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:35:47 UTC] PHP Stack trace:
+[08-Sep-2020 06:35:47 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:35:47 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:35:47 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:35:47 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:35:47 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:35:47 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:39:13 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:39:13 UTC] PHP Stack trace:
+[08-Sep-2020 06:39:13 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:39:13 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:39:13 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:39:13 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:39:13 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:39:13 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:39:22 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:39:22 UTC] PHP Stack trace:
+[08-Sep-2020 06:39:22 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:39:22 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:39:22 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:39:22 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:39:22 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:39:22 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:39:25 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:39:25 UTC] PHP Stack trace:
+[08-Sep-2020 06:39:25 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:39:25 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:39:25 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:39:25 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:39:25 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:39:25 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:39:28 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:39:28 UTC] PHP Stack trace:
+[08-Sep-2020 06:39:28 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:39:28 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:39:28 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:39:28 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:39:28 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:39:28 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:39:32 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:39:32 UTC] PHP Stack trace:
+[08-Sep-2020 06:39:32 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:39:32 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:39:32 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:39:32 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:39:32 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:39:32 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:39:35 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:39:35 UTC] PHP Stack trace:
+[08-Sep-2020 06:39:35 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:39:35 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:39:35 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:39:35 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:39:35 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:39:35 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:39:38 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:39:38 UTC] PHP Stack trace:
+[08-Sep-2020 06:39:38 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:39:38 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:39:38 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:39:38 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:39:38 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:39:38 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:39:41 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:39:41 UTC] PHP Stack trace:
+[08-Sep-2020 06:39:41 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:39:41 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:39:41 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:39:41 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:39:41 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:39:41 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:39:44 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:39:44 UTC] PHP Stack trace:
+[08-Sep-2020 06:39:44 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:39:44 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:39:44 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:39:44 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:39:44 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:39:44 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:39:48 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:39:48 UTC] PHP Stack trace:
+[08-Sep-2020 06:39:48 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:39:48 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:39:48 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:39:48 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:39:48 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:39:48 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:39:51 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:39:51 UTC] PHP Stack trace:
+[08-Sep-2020 06:39:51 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:39:51 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:39:51 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:39:51 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:39:51 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:39:51 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669
+[08-Sep-2020 06:39:54 UTC] PHP Notice:  ob_end_flush(): failed to send buffer of zlib output compression (0) in /var/www/html/wp-includes/functions.php on line 4669
+[08-Sep-2020 06:39:54 UTC] PHP Stack trace:
+[08-Sep-2020 06:39:54 UTC] PHP   1. shutdown_action_hook() /var/www/html/wp-includes/load.php:0
+[08-Sep-2020 06:39:54 UTC] PHP   2. do_action() /var/www/html/wp-includes/load.php:1007
+[08-Sep-2020 06:39:54 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wp-includes/plugin.php:478
+[08-Sep-2020 06:39:54 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wp-includes/class-wp-hook.php:311
+[08-Sep-2020 06:39:54 UTC] PHP   5. wp_ob_end_flush_all() /var/www/html/wp-includes/class-wp-hook.php:287
+[08-Sep-2020 06:39:54 UTC] PHP   6. ob_end_flush() /var/www/html/wp-includes/functions.php:4669

@@ -17,16 +17,11 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     apt-get -y update && \
     apt-get install -y  \
     libbz2-dev \
-    # libfreetype6-dev \
     libicu-dev \
-    # libjpeg62-turbo-dev \
-    # libssh2-1-dev \
     libsodium-dev \
     libmcrypt-dev \
-    # libpng-dev \
     libpng++-dev \
     libzip-dev \
-    # libmcrypt-dev \
     libmcrypt4 \
     libjpeg-dev \
     libcurl3-dev \
@@ -36,20 +31,18 @@ RUN rm /bin/sh && ln -s /bin/bash /bin/sh && \
     libxslt1-dev \
     libssl-dev \
     libmagickwand-dev \
-    # php-imagick \
     build-essential \
     lsof \
     default-mysql-client \
     wget \
     gnupg2 \
-    # vim \
     unzip \
     gzip \
     curl \
     git \ 
     cron && \ 
     pecl install imagick  
-    # && \
+
 RUN docker-php-ext-configure gd --with-freetype --with-jpeg && \ 
     docker-php-ext-install \
     pdo_mysql \
@@ -57,36 +50,24 @@ RUN docker-php-ext-configure gd --with-freetype --with-jpeg && \
     dom \
     exif \
     fileinfo \
-    # hash \
-    json \
-    # mbstring 
+    json \ 
     mysqli \ 
-    # # sodium \
-    # openssl 
-    # pcre \
     xml \
     zip \ 
     filter \
     gd \
     iconv \
     simplexml \
-    # xmlreader \
-    opcache 
-    # # imagick \
-    # zlib
+    opcache
 
-RUN pecl channel-update pecl.php.net && \
-    pecl install xdebug && \
-    docker-php-ext-enable xdebug && \
-    sed -i -e 's/^zend_extension/\;zend_extension/g' /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini && \
-    wget -q -O - https://packages.blackfire.io/gpg.key | apt-key add - && \
-    echo "deb http://packages.blackfire.io/debian any main" | tee /etc/apt/sources.list.d/blackfire.list && \
+RUN pecl install xdebug \
+    && docker-php-ext-enable xdebug \
+    && echo "zend_extension=$(find /usr/local/lib/php/extensions/ -name xdebug.so)" >> /usr/local/etc/php/conf.d/xdebug.ini && \ 
     curl -sL https://deb.nodesource.com/setup_current.x | bash - && \
     apt-get update -y && \
-    apt-get install -y nodejs blackfire-agent blackfire-php && \
-    rm -rf /var/lib/apt/lists/*
-    # npm install -g yarn && \
-    # npm install -g grunt-cli
+    apt-get install -y nodejs && \
+    rm -rf /var/lib/apt/lists/* && \
+    npm install -g yarn 
 
 RUN curl -sSLO https://github.com/mailhog/mhsendmail/releases/download/v0.2.0/mhsendmail_linux_amd64 && \
     chmod +x mhsendmail_linux_amd64 && \
@@ -98,5 +79,6 @@ COPY ./php.ini /usr/local/etc/php/php.ini
 COPY "wordpress.test.com.conf" "/etc/apache2/sites-available/wordpress.test.com.conf"
 COPY "wordpress.test.com.conf" "/etc/apache2/sites-enabled/wordpress.test.com.conf"
 COPY "apache2.conf" "/etc/apache2/apache2.conf"
+COPY ./xdebug.ini /usr/local/etc/php/conf.d/xdebug.ini
 
 WORKDIR $INSTALL_DIR

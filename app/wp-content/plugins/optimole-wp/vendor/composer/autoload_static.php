@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInita65219480e06d3a387acc6e0e78b3424
+class ComposerStaticInit9475fb7b928b2065c785a22b7217ea56
 {
     public static $files = array (
         '9fef4034ed73e26a337d9856ea126f7f' => __DIR__ . '/..' . '/codeinwp/themeisle-sdk/load.php',
